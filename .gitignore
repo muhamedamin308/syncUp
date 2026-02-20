@@ -1,1 +1,67 @@
+# ==============================
+# Android / Gradle
+# ==============================
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+
+# Gradle files
+.gradle/
+**/build/
+
+# Local configuration file (SDK path, etc.)
 local.properties
+
+# ==============================
+# Android Studio / IntelliJ
+# ==============================
+
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Caches
+.cxx/
+.externalNativeBuild/
+
+# ==============================
+# OS Files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Signing Files (IMPORTANT)
+# ==============================
+
+*.jks
+*.keystore
+key.properties
+
+# ==============================
+# Kotlin
+# ==============================
+
+.kotlin/

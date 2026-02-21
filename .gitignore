@@ -65,3 +65,31 @@ key.properties
 # ==============================
 
 .kotlin/
+
+# ==============================
+# Ktor / Backend
+# ==============================
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Application config (if contains secrets)
+application-local.conf
+application-local.yaml
+.env
+
+# Ktor dev files
+ktor-server.jar
+
+# OS
+.DS_Store
+Thumbs.db

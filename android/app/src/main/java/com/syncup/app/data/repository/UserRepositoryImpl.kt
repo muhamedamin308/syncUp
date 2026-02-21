@@ -29,7 +29,7 @@ class UserRepositoryImpl @Inject constructor(
         val KEY_CURRENT_USER_ID = stringPreferencesKey("current_user_id")
 
         val DEFAULT_USER = User(
-            id = "guest_user_001",
+            id = "user_001",
             username = "guest_username",
             avatarUrl = null,
             isOnline = true
